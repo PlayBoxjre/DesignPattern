@@ -29,6 +29,10 @@ public class Main {
 		BlueWallPaper bwp = new BlueWallPaper(wall);
 		bwp.show();
 		
+		Oil oil = new  BaseOil();
+		Oil qiOil = new QiOil(oil);
+		qiOil.fire();
+		
 		
 		
 	}
